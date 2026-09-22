@@ -41,6 +41,12 @@ git push origin feature/hobby-project
 https://github.com/Serg-I-1904/devops-course-2026/pull/new/feature/hobby-project
 ```
 
+Смёрженный Pull Request:
+
+```text
+https://github.com/Serg-I-1904/devops-course-2026/pull/1
+```
+
 Текст Pull Request:
 
 ```md
@@ -60,6 +66,8 @@ https://github.com/Serg-I-1904/devops-course-2026/pull/new/feature/hobby-project
 ```text
 Можно добавить раздел со сроками реализации или первым минимальным результатом, чтобы идея стала ближе к плану разработки.
 ```
+
+Pull Request смёржен через `Squash and merge`.
 
 ### Задание 3. Git в VS Code
 
@@ -231,9 +239,6 @@ git revert HEAD
 
 ## Что осталось выполнить через браузер
 
-1. Войти в GitHub в открытой вкладке.
-2. Создать Pull Request из `feature/hobby-project` в `main`.
-3. Добавить комментарий ревьюера.
-4. Выполнить `Squash and merge` и удалить ветку `feature/hobby-project`.
-5. Подтвердить создание mirror-репозитория для задания Multi-Remote.
-6. Для контрольной работы №4 отдельно подтвердить fork шаблона и создание mirror-репозитория.
+1. Удалить ветку `feature/hobby-project` после merge.
+2. Подтвердить создание mirror-репозитория для задания Multi-Remote.
+3. Для контрольной работы №4 отдельно подтвердить fork шаблона и создание mirror-репозитория.
