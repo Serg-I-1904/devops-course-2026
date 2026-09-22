@@ -166,17 +166,41 @@ oops
 
 ### Задание 4. Multi-Remote
 
-Для полного выполнения нужно создать пустой mirror-репозиторий на GitHub или GitLab. Это действие создаёт внешний репозиторий, поэтому требуется отдельное подтверждение.
-
-План выполнения после подтверждения:
+Для синхронизации используется mirror-репозиторий:
 
 ```text
-git remote add mirror <ssh-url>
+https://github.com/Serg-I-1904/devops-course-2026-mirror
+```
+
+Команды настройки:
+
+```text
+git remote add mirror git@github.com:Serg-I-1904/devops-course-2026-mirror.git
 git push mirror --all
 git push mirror --tags
-git remote set-url --add --push origin <ssh-url>
+git remote set-url --add --push origin git@github.com:Serg-I-1904/devops-course-2026-mirror.git
 git remote -v
 ```
+
+Проверочный коммит:
+
+```text
+chore: test multi-remote push
+```
+
+Коммит отправлен командой:
+
+```text
+git push origin main
+```
+
+Так как для `origin` настроены два push-URL, коммит отправлен в основной репозиторий и в mirror-репозиторий.
+
+Отчётные материалы:
+
+- `reports/multi_remote_remote_v.txt` - вывод `git remote -v`;
+- `reports/multi_remote_log.txt` - граф истории с remote-ветками;
+- `reports/final_branches.txt` - финальный список локальных и удалённых веток.
 
 ### Задание 5. Cherry-pick, Reflog и Revert
 
@@ -236,9 +260,3 @@ git revert HEAD
 
 - `reports/revert_log.txt` - история с revert-коммитом;
 - `reports/revert_calculator.txt` - `calculator.py` без `BROKEN_CODE`.
-
-## Что осталось выполнить через браузер
-
-1. Удалить ветку `feature/hobby-project` после merge.
-2. Подтвердить создание mirror-репозитория для задания Multi-Remote.
-3. Для контрольной работы №4 отдельно подтвердить fork шаблона и создание mirror-репозитория.

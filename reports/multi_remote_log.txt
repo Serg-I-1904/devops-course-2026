@@ -1,0 +1,13 @@
+* 161fc91 chore: test multi-remote push
+* 46abbb1 docs: update PR report status
+* 82d980b feat: add hobby project description (#1)
+* a16ddd6 docs: add practice reports
+* 40976f1 Revert "feat: add new feature (accidentally broken)"
+* 06f4048 feat: add new feature (accidentally broken)
+| * 5edfe5a feat: add multiply and divide (experimental)
+|/  
+* 69bcce8 fix: critical bug in calculator
+* 386ba32 docs: add calculator README
+* a9f162c feat: implement subtract function
+* a255c38 feat: implement add function
+* 76423b8 docs: add details for feature A

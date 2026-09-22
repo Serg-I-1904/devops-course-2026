@@ -1,0 +1,10 @@
+  feature/calculator
+  feature/hobby-project
+  hotfix/urgent-fix
+* main
+  remotes/mirror/feature/calculator
+  remotes/mirror/feature/hobby-project
+  remotes/mirror/hotfix/urgent-fix
+  remotes/mirror/main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
