@@ -1,0 +1,3 @@
+40976f1 Revert "feat: add new feature (accidentally broken)"
+06f4048 feat: add new feature (accidentally broken)
+69bcce8 fix: critical bug in calculator

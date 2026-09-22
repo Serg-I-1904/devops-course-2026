@@ -1,0 +1,6 @@
+b7f12dd oops
+92e32f3 add docs
+394f852 fix typo in subtract
+422b578 add subtract
+d9e84ec wip
+8f34607 start calculator

@@ -1,0 +1,20 @@
+69bcce8 HEAD@{0}: checkout: moving from temp/lost-branch to main
+ee58498 HEAD@{1}: commit: feat: add very important data
+69bcce8 HEAD@{2}: checkout: moving from main to temp/lost-branch
+69bcce8 HEAD@{3}: cherry-pick: fix: critical bug in calculator
+386ba32 HEAD@{4}: checkout: moving from hotfix/urgent-fix to main
+5edfe5a HEAD@{5}: commit: feat: add multiply and divide (experimental)
+69bcce8 HEAD@{6}: commit: fix: critical bug in calculator
+386ba32 HEAD@{7}: checkout: moving from main to hotfix/urgent-fix
+386ba32 HEAD@{8}: merge feature/calculator: Fast-forward
+76423b8 HEAD@{9}: checkout: moving from feature/calculator to main
+386ba32 HEAD@{10}: rebase (finish): returning to refs/heads/feature/calculator
+386ba32 HEAD@{11}: rebase (reword): docs: add calculator README
+9f0952a HEAD@{12}: rebase (reword): add docs
+a9f162c HEAD@{13}: rebase (fixup): feat: implement subtract function
+a9034df HEAD@{14}: rebase (reword): feat: implement subtract function
+2904a4a HEAD@{15}: rebase (reword): add subtract
+a255c38 HEAD@{16}: rebase (fixup): feat: implement add function
+93218af HEAD@{17}: rebase (reword): feat: implement add function
+8f34607 HEAD@{18}: rebase: fast-forward
+76423b8 HEAD@{19}: rebase (start): checkout HEAD~6

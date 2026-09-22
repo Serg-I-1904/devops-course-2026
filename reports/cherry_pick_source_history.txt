@@ -1,0 +1,2 @@
+5edfe5a feat: add multiply and divide (experimental)
+69bcce8 fix: critical bug in calculator

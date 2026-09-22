@@ -1,0 +1,5 @@
+386ba32 docs: add calculator README
+a9f162c feat: implement subtract function
+a255c38 feat: implement add function
+76423b8 docs: add details for feature A
+eb4d357 feat: add feature A description

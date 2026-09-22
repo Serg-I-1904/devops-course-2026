@@ -1,0 +1,11 @@
+* 76423b8 docs: add details for feature A
+* eb4d357 feat: add feature A description
+* 6675d07 docs: add SVN comparison answers
+* 7525c08 docs: add IDE vs CLI notes
+| * 2ef13bc feat: add hobby project description
+|/  
+* a99afd4 Add goals.md with my target
+* 2057b94 Add about_me.md with student info
+* 6e28aa7 Update README.md
+* be2d230 Update README.md
+* 45caae5 Initial commit
